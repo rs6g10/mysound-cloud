@@ -6,12 +6,12 @@ module.exports = {
     entry: {
         main: [
             './src/main.js',
-            'webpack-dev-server/client?http://localhost:8085',
+            'webpack-dev-server/client?http://localhost:8080',
             'webpack/hot/only-dev-server'
         ]
     },
     output: {
-        publicPath: 'http://localhost:8085/',
+        publicPath: 'http://localhost:8080/',
         filename: '/js/[name].js'
     },
     module: {
@@ -24,7 +24,7 @@ module.exports = {
     devServer: {
         host: '0.0.0.0',
         proxy: {
-            '/api/*': 'http://localhost:8086',
+            '/api/*': 'http://localhost:8081',
         }
     }
 };

@@ -10,7 +10,7 @@ Example of a a flavoured version of soundcloud. Work in progress but more desira
 2. npm test (optional)
 3. npm start
 ````
-Then visit `localhost:8085` in your browser.
-http://localhost:8085
+Then visit `localhost:8080` in your browser.
+http://localhost:8080
 
 ---

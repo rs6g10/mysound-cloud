@@ -1,0 +1,1 @@
+web: webpack-dev-server --progress --colors --hot --content-base ./server/public --config ./webpack.config.js
